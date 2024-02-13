@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="Memory.Game"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Memory"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <MenuBar VerticalAlignment="Top">
+            <MenuBarItem Title="Help">
+                <MenuFlyoutItem Text="MainPage" Click="MenuFlyoutItem_Click_5"/>
+            </MenuBarItem>
+        </MenuBar>
+        <Image HorizontalAlignment="Left" Height="100" Margin="469,518,0,0" VerticalAlignment="Top" Width="100" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Libya_%281977%E2%80%932011%29.svg/300px-Flag_of_Libya_%281977%E2%80%932011%29.svg.png" Tapped="Image_Tapped_2"/>
+        <Image HorizontalAlignment="Left" Height="47" Margin="691,521,0,0" VerticalAlignment="Top" Width="100" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solid_blue.svg/1024px-Solid_blue.svg.png" Tapped="Image_Tapped_3"/>
+        <Image HorizontalAlignment="Left" Height="35" Margin="964,533,0,0" VerticalAlignment="Top" Width="100" Source="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png" Tapped="Image_Tapped_4"/>
+        <Image HorizontalAlignment="Left" Height="40" Margin="1233,528,0,0" VerticalAlignment="Top" Width="100" Source="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAA1BMVEX/LpjsMRttAAAASElEQVR4nO3BgQAAAADDoPlTX+AIVQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwDcaiAAFXD1ujAAAAAElFTkSuQmCC"/>
+        <Image HorizontalAlignment="Left" Height="59" Margin="469,618,0,0" VerticalAlignment="Top" Width="100" Source="https://static.wikia.nocookie.net/symbolism/images/4/43/Orange.png/revision/latest/scale-to-width-down/400?cb=20140818120046" Tapped="Image_Tapped_1"/>
+        <Image HorizontalAlignment="Left" Height="49" Margin="691,628,0,0" VerticalAlignment="Top" Width="100" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Solid_blue.svg/1024px-Solid_blue.svg.png" Tapped="Image_Tapped_5"/>
+        <Image HorizontalAlignment="Left" Height="49" Margin="926,628,0,0" VerticalAlignment="Top" Width="100" Source="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Libya_%281977%E2%80%932011%29.svg/300px-Flag_of_Libya_%281977%E2%80%932011%29.svg.png" Tapped="Image_Tapped_6"/>
+        <Image HorizontalAlignment="Left" Height="39" Margin="1243,638,0,0" VerticalAlignment="Top" Width="100" Source="https://htmlcolorcodes.com/assets/images/colors/red-color-solid-background-1920x1080.png" Tapped="Image_Tapped_7"/>
+        <Image HorizontalAlignment="Left" Height="43" Margin="469,758,0,0" VerticalAlignment="Top" Width="100" Tapped="Image_Tapped"/>
+        <Image HorizontalAlignment="Left" Height="43" Margin="682,758,0,0" VerticalAlignment="Top" Width="100" Source="https://upload.wikimedia.org/wikipedia/commons/c/c9/Rainbow-diagram-ROYGBIV.svg"/>
+        <Image HorizontalAlignment="Left" Height="55" Margin="955,758,0,0" VerticalAlignment="Top" Width="100" Source="https://colourlex.com/wp-content/uploads/2021/02/vine-black-painted-swatch.jpg"/>
+        <Image HorizontalAlignment="Left" Height="55" Margin="1171,758,0,0" VerticalAlignment="Top" Width="93" Source="https://www.chromacolour.co.uk/pub/media/catalog/product/cache/63037f042c39a4e9f865b2c784706fd6/l/e/lemon-yellow.jpg"/>
+        <Image HorizontalAlignment="Left" Height="62" Margin="469,859,0,0" VerticalAlignment="Top" Width="100" Source="https://colourlex.com/wp-content/uploads/2021/02/vine-black-painted-swatch.jpg"/>
+        <Image HorizontalAlignment="Left" Height="62" Margin="762,859,0,0" VerticalAlignment="Top" Width="100" Source="https://static.wikia.nocookie.net/symbolism/images/4/43/Orange.png/revision/latest/scale-to-width-down/400?cb=20140818120046"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="1005,871,0,0" VerticalAlignment="Top" Width="100" Source="https://www.chromacolour.co.uk/pub/media/catalog/product/cache/63037f042c39a4e9f865b2c784706fd6/l/e/lemon-yellow.jpg"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="1283,871,0,0" VerticalAlignment="Top" Width="100" Source=""/>
+
+
+    </Grid>
+</Page>
